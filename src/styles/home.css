@@ -1,0 +1,65 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 70vh;
+    height: auto;
+    border: 1px solid rgb(136, 136, 136);
+    border-radius: 15px;
+}
+
+.secBtn{
+    display: flex;
+    justify-content: end;
+}
+
+.btnAgr{
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.baseCard{
+    display: flex;
+    margin: 15px 0px 15px;
+    border-bottom: 1px solid gray;
+}
+
+.cardImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+
+.cardData{
+    display: block;
+    text-align: start;
+    width: 65%;
+
+}
+
+.delete-button{
+    display: flex;
+    width: 7%;
+    justify-content: end;
+    align-items: center;
+    text-align: right;
+}
+
+.btnDel{
+    border: none;
+    background-color: white;
+}
+
+
+img{
+    max-width: 150px;
+    max-height: 150px;
+}
+

@@ -1,0 +1,47 @@
+.boxAddContact{
+    width: 70vh;
+    height: auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+
+.titleDemo{
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+}
+
+.formulario{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+input{
+    width: 100%;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+input::placeholder{
+    opacity: 0.4;
+}
+
+label{
+    margin: 15px 0px 5px 10px;
+}
+
+.btnGuardar{
+    text-align: center;
+    margin: 40px 0px 40px;
+}
+
+button{
+    width: 160px;
+    margin-right: 20px;
+}
